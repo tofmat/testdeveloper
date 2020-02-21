@@ -118,49 +118,49 @@
                     </div>   
                     
                     <div class="scrollbar-sidebar my-5">
-                        <div class="app-sidebar__inner">
-                            <ul class="vertical-nav-menu my-3">
+                        <div class="app-sidebar__inner navback">
+                            <ul class="vertical-nav-menu my-3 navv">
                                 <li>
                                     <a href="index.html" class="mm-active">
-                                        <i class="metismenu-icon pe-7s-rocket"></i>
+                                        <i class="fa fa-fw metismenu-icon" aria-hidden="true" title="Copy to use ban"></i>
                                         Dashboard
                                     </a>
                                 </li>
                                 <li >
-                                    <router-link to="/HelloWorld">
+                                    <a href="" class="navvv">
 
                                         <i class="metismenu-icon pe-7s-diamond"></i>
                                         Operations
                                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                                    </router-link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="#" class="navvv">
                                         <i class="metismenu-icon pe-7s-car"></i>
                                         Records
                                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                                     </a>
                                 </li>
                                 <li >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.html" class="navvv">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Supply Store
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.html" class="navvv">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Market Place
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.html" class="navvv">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forums
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.html" class="navvv">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
@@ -184,5 +184,19 @@ export default {
 </script>
 
 <style>
-
+    .navv{
+        text-align: left;
+        padding: 10px;
+        color: white;
+    }
+    .navback{
+        background-color: deepskyblue;
+        color: white;
+    }
+    .app-theme-white .app-sidebar {
+    background-color: blue;
+}
+.navvv{
+    color: white;
+}
 </style>

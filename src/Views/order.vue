@@ -64,80 +64,9 @@
                                  <div class="mx-3">Order: #323232 <br> Account setup> Delivery Method</div>
                                  <div class="mx-3" style="float: right;">Production Status Running 2 of 4</div>                                
                              </div>
-                        </div>   
-
-                        <div class="main-card mb-3 card">
-                            <div class="no-gutters row">
-                                    <div class="col-md-2">
-                                        <div class="widget-content">
-                                            <div class="widget-content-wrapper">
-                                                <div class="widget-content-right ml-0 mr-3">
-                                                    <i class="fa fa-fw" aria-hidden="true" title="Copy to use cart-plus"></i>
-                                                </div>
-                                                <div class="widget-content-left">
-                                                    <div class="widget-heading">Order Date</div>
-                                                    <div class="widget-subheading">20-June-2020</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <div class="widget-content">
-                                            <div class="widget-content-wrapper">
-                                                <div class="widget-content-left">
-                                                    <div class="widget-heading">Delivery Method</div>
-                                                    <div class="widget-subheading">Pickup Order</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <div class="widget-content">
-                                            <div class="widget-content-wrapper">
-                                                <div class="widget-content-left">
-                                                    <div class="widget-heading">Order Value</div>
-                                                    <div class="widget-subheading">$40,000</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <div class="widget-content">
-                                            <div class="widget-content-wrapper">
-                                                <div class="widget-content-left">
-                                                    <div class="widget-heading">Rush Option</div>
-                                                    <div class="widget-subheading">Rush</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <div class="widget-content">
-                                            <div class="widget-content-wrapper">
-                                                <div class="widget-content-left">
-                                                    <div class="widget-heading">Status </div>
-                                                    <div class="widget-subheading">Pending</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                    <div class="col-md-2">
-                                        <div class="widget-content">
-                                            <div class="widget-content-wrapper">
-                                                <div class="widget-content-left">
-                                                    <div class="widget-heading">Shipped or <br> Pickup date</div>
-                                                    <div class="widget-subheading">$40,000</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>       
+                        </div>        
                         
-
-                        
-                        
-                        <div class="tab-content">
+<div class="tab-content">
                             <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -213,44 +142,28 @@
                                     </div>
                             </div>
                         </div> 
+
                                                             <div class="tab-content">
                                                                 <table class="mb-0 table table-striped">
                                                                     <thead>
                                                                         <tr>
-                                                                            <th>Order #</th>
                                                                             <th>Item #</th>
                                                                             <th>Details</th>
+                                                                            <th>Production Type</th>
                                                                             <th>Colors</th>
-                                                                            <th>Qty</th>
-                                                                            <th>Print type</th>
-                                                                            <th>Delivery Method</th>
-                                                                            <th>Delivery Time</th>
-                                                                            <th>Production Status</th>
+                                                                            <th>Quantity</th>
+                                                                            <th>Paid</th>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
                                                                         <tr>
                                                                             <th scope="row">#222784934QWD</th>
-                                                                            <td>#222784934QWD</td>
                                                                             <td>No minimum more than 4 thing alv oi cewoi<br>No minimum more than 4 thing alv oi cewoi</td>
+                                                                            <td>DTG Prints</td> 
                                                                             <td><button class="mb-2 mr-2 btn btn-info mx-3">Save</button></td>
-                                                                            <td> L * 4</td>
-                                                                            <td>DTG Prints</td>
-                                                                            <td>Rush Shipping</td>
-                                                                            <td>23-June-2020 <br> Time Left: 10:00:00</td>
-                                                                            <td>Running <br> 2 of 5</td>
+                                                                            <td>L * 4</td>
+                                                                            <td>Paid in full</td>
                                                                             
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th scope="row">#222784934SDC</th>
-                                                                            <td>#222784934QWD</td>
-                                                                            <td>No minimum more than 4 thing alv oi cewoi<br>No minimum more than 4 thing alv oi cewoi</td>
-                                                                            <td><button class="mb-2 mr-2 btn btn-info mx-3">Save</button></td>
-                                                                            <td> L * 4</td>
-                                                                            <td>DTG Prints</td>
-                                                                            <td>Rush Shipping</td>
-                                                                            <td>23-June-2020 <br> Time Left: 10:00:00</td>
-                                                                            <td>Running <br> 2 of 5</td>
                                                                         </tr>
                                                                     </tbody>
                                                                 </table>
