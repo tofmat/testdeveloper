@@ -79,9 +79,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div>        </div>
+                    </div>     
+                 </div>
             </div>
         </div>    
+
            <div class="app-main">
                 <div class="app-sidebar sidebar-shadow">
                     <div class="app-header__logo">
@@ -113,9 +115,11 @@
                                 </span>
                             </button>
                         </span>
-                    </div>    <div class="scrollbar-sidebar">
+                    </div>   
+                    
+                    <div class="scrollbar-sidebar my-5">
                         <div class="app-sidebar__inner">
-                            <ul class="vertical-nav-menu">
+                            <ul class="vertical-nav-menu my-3">
                                 <li>
                                     <a href="index.html" class="mm-active">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
@@ -123,11 +127,12 @@
                                     </a>
                                 </li>
                                 <li >
-                                    <a href="#">
+                                    <router-link to="/HelloWorld">
+
                                         <i class="metismenu-icon pe-7s-diamond"></i>
                                         Operations
                                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                                    </a>
+                                    </router-link>
                                 </li>
                                 <li>
                                     <a href="#">
@@ -165,6 +170,8 @@
                     </div>
                 </div>   
                </div>
+
+                   <router-view></router-view>
     </div>
 </template>
 
