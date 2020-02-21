@@ -67,7 +67,7 @@
                         </div>   
 
                         <div class="main-card mb-3 card">
-                                <div class="no-gutters row">
+                            <div class="no-gutters row">
                                     <div class="col-md-2">
                                         <div class="widget-content">
                                             <div class="widget-content-wrapper">
@@ -125,16 +125,18 @@
                                         <div class="widget-content">
                                             <div class="widget-content-wrapper">
                                                 <div class="widget-content-left">
-                                                    <div class="widget-heading">Order Value</div>
+                                                    <div class="widget-heading">Shipped or <br> Pickup date</div>
                                                     <div class="widget-subheading">$40,000</div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>       
+                            </div>
+                        </div>       
                         
 
+                        
+                        
                         <div class="tab-content">
                             <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                                 <div class="row">
@@ -142,20 +144,76 @@
                                         <div class="mb-3 card">
                                             <div class="card-header-tab card-header text-center">
                                                 <div class="card-header-title">
-                                                   <button class="mb-2 mr-2 btn-transition btn btn-outline-secondary">Print Worksheet</button>
-                                                    <button class="mb-2 mr-2 btn btn-primary mx-3">Mark as Completed</button>
-                                                    <button class="mb-2 mr-2 btn btn-secondary mx-3">Save</button>
+                                                   <button class="mb-2 mr-2 btn-transition btn btn-outline-secondary">Complete Production</button>
+                                                    <button class="mb-2 mr-2 btn btn-primary mx-3"> Add Note</button>
+                                                    <button class="mb-2 mr-2 btn btn-secondary mx-3">Print</button>
+                                                    Worksheet
                                                 </div>
 
                                                 <ul class="nav">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg5-0" class="active nav-link">All Productions</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg5-1" class="nav-link">Awaiting Productions</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg5-2" class="nav-link">Completed</a></li>
+                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg5-0" class="active nav-link">Product Details</a></li>
+                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg5-1" class="nav-link"> History/Notes </a></li>
                                                 </ul>
                                                
                                             </div>
+
+                                            
                                             <div class="card-body">
-                                                <div class="tab-content">
+                                                <nav class="" aria-label="breadcrumb">
+                                                    <ol class="breadcrumb">
+                                                        <li class="active breadcrumb-item" aria-current="page">Product</li>
+                                                    </ol>
+                                                </nav>
+
+                                                <div class="main-card mb-3 card">
+                            <div class="no-gutters row">
+                                    <div class="col-md-3">
+                                        <div class="widget-content">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left">
+                                                    <img src="../assets/images/this.png"/>
+                                                    <br>
+                                                    <div class="widget-subheading">Front</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="widget-content">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left">
+                                                    <img src="../assets/images/this2.png" width="180px" height="162px"/>
+                                                    <br>
+                                                    <div class="widget-subheading">Back</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="widget-content">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left">
+                                                    <img src="../assets/images/this.png"/>
+                                                    <br>
+                                                    <div class="widget-subheading">Front</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="widget-content">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left">
+                                                    <img src="../assets/images/this2.png" width="180px" height="162px"/>
+                                                    <br>
+                                                    <div class="widget-subheading">Front</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div> 
+                                                            <div class="tab-content">
                                                                 <table class="mb-0 table table-striped">
                                                                     <thead>
                                                                         <tr>
