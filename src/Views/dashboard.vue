@@ -6,7 +6,7 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-car icon-gradient bg-mean-fruit">
+                                        <i class="fa fa-home" style="color:blue;">
                                         </i>
                                     </div>
                                     <div>Production House</div>
@@ -103,25 +103,31 @@
                                                                         <tr>
                                                                             <th scope="row">#222784934QWD</th>
                                                                             <td>#222784934QWD</td>
-                                                                            <td>No minimum more than 4 thing alv oi cewoi<br>No minimum more than 4 thing alv oi cewoi</td>
+                                                                            <td>
+                                                                               <img src="../assets/images/this.png" width=50px height="50px"/>
+                                                                                No minimum more than 4 thing alv oi cewoi
+                                                                            </td>
                                                                             <td><button class="mb-2 mr-2 btn btn-info mx-3">Save</button></td>
                                                                             <td> L * 4</td>
                                                                             <td>DTG Prints</td>
-                                                                            <td>Rush Shipping</td>
-                                                                            <td>23-June-2020 <br> Time Left: 10:00:00</td>
-                                                                            <td>Running <br> 2 of 5</td>
+                                                                            <td><span style="color:red;">Rush Shipping</span></td>
+                                                                            <td>23-June-2020 <br> Time Left: <span style="color:green;">10:00:00</span></td>
+                                                                            <td><span style="color:green;">Running <br> 2 of 5</span></td>
                                                                             
                                                                         </tr>
                                                                         <tr>
                                                                             <th scope="row">#222784934SDC</th>
                                                                             <td>#222784934QWD</td>
-                                                                            <td>No minimum more than 4 thing alv oi cewoi<br>No minimum more than 4 thing alv oi cewoi</td>
+                                                                            <td>
+                                                                               <img src="../assets/images/this.png" width=50px height="50px"/>
+                                                                                No minimum more than 4 thing alv oi cewoi
+                                                                            </td>
                                                                             <td><button class="mb-2 mr-2 btn btn-info mx-3">Save</button></td>
                                                                             <td> L * 4</td>
                                                                             <td>DTG Prints</td>
-                                                                            <td>Rush Shipping</td>
-                                                                            <td>23-June-2020 <br> Time Left: 10:00:00</td>
-                                                                            <td>Running <br> 2 of 5</td>
+                                                                            <td><span style="color:blue;">Pickup Order</span></td>
+                                                                            <td>23-June-2020 <br> Time Left: <span style="color:green;">10:00:00</span></td>
+                                                                            <td><span style="color:green;">Running <br> 2 of 5</span></td>
                                                                         </tr>
                                                                     </tbody>
                                                                 </table>

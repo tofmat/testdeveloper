@@ -33,7 +33,7 @@
             <div class="app-header__content">
                 <div class="app-header-left">
                   <div class="app-header__logo">
-                        <div class="logo-src"></div>
+                        <img src="../assets/images/logo2.png" width="97px" height="23px"/>
                     </div>       
                  </div>
                 <div class="app-header-right">
@@ -47,19 +47,19 @@
                     <ul class="header-menu nav">
                         <li class="nav-item">
                             <a href="javascript:void(0);" class="nav-link">
-                                <i class="nav-link-icon fa fa-database"> </i>
+                                <i class="nav-link-icon fa fa-envelope"> </i>
                                 Messages
                             </a>
                         </li>
                         <li class="btn-group nav-item">
                             <a href="javascript:void(0);" class="nav-link">
-                                <i class="nav-link-icon fa fa-edit"></i>
+                                <i class="nav-link-icon fa fa-cart-plus"></i>
                                 Market Place
                             </a>
                         </li>
                         <li class="dropdown nav-item">
                             <a href="javascript:void(0);" class="nav-link">
-                                <i class="nav-link-icon fa fa-cog"></i>
+                                <i class="nav-link-icon fa fa-list"></i>
                                 Notification
                             </a>
                         </li>
@@ -67,6 +67,7 @@
                     <div class="header-btn-lg pr-0">
                         <div class="widget-content p-0">
                             <div class="widget-content-wrapper">
+                                
                                 <div class="widget-content-left  ml-3 header-user-info">
                                     <div class="widget-heading">
                                         Me
@@ -74,7 +75,7 @@
                                 </div>
                                 <div class="widget-content-right header-user-info ml-3">
                                     <button type="button" class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
-                                        <i class="fa text-white fa-arrow-down pr-1 pl-1"></i>
+                                        <i class="fa text-white fa-chevron-down pr-1 pl-1"></i>
                                     </button>
                                 </div>
                             </div>
